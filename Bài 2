@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=input()
+d=float(input())
+e=float(input())
+print(a, b, c, '%.2f'%d, '%.9f'%e, sep='\n')
