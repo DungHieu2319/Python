@@ -1,0 +1,6 @@
+x, y, z, t = map(int,input().split())
+a = x + y + z + t
+b = x - y + z * t
+print(y, z, x, t, sep=',')
+print(a)
+print(b)
