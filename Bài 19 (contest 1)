@@ -1,0 +1,8 @@
+m, n = map(int, input().split())
+doc=(m//2)*n
+if m%2==0:
+    ngang=0
+else:
+    ngang=n//2
+sum=doc+ngang
+print(sum)
