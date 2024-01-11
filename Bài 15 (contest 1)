@@ -1,0 +1,8 @@
+n, a, b = map(int, input().split())
+if a*2<=b:
+    print(a*n)
+else:
+    if n%2==0:
+        print(b*(n//2))
+    else:
+        print(b*((n-1)//2)+a)
