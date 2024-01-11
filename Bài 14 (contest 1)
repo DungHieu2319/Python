@@ -1,0 +1,10 @@
+x, y, z, t = map(float, input().split())
+a=(x+y+z*2+t*3)/7
+if a>=8:
+    print('GIOI')
+elif a<8 and a>=6.5:
+    print('KHA')
+elif a<6.5 and a>=5:
+    print('TRUNG BINH')
+else:
+    print('YEU')
