@@ -1,0 +1,5 @@
+from math import *
+n, m, a = map(int, input().split())
+dai=ceil(n/a)
+rong=ceil(m/a)
+print(dai*rong)
