@@ -1,0 +1,4 @@
+a, b = map(int, input().split())
+x=int((a//b)*b)
+y=int(((a//b)+1)*b)
+print(x, y, sep='\n')
