@@ -1,0 +1,6 @@
+n=int(input())
+x=n//365
+n=n-x*365
+y=n//7
+n=n-y*7
+print(x, y, n)
