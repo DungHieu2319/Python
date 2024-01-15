@@ -1,0 +1,2 @@
+n, u1, d = map(int, input().split())
+print(int((u1+n*d-d+u1)*n/2))
