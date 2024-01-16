@@ -1,0 +1,9 @@
+a, b, c, n = map(int, input().split())
+sum=a+b+c+n
+if sum%3==0:
+    x=sum//3
+    if x<a or x<b or x<c:
+        print('NO')
+    else: print('YES')
+else:
+    print('NO')
