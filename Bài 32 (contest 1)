@@ -1,0 +1,7 @@
+k2, k3, k5, k6 = map(int, input().split())
+sum=0
+x=min(k2, k5, k6)
+sum+=256*x
+y=min(k3, k2-x)
+sum+=32*y
+print(sum)
