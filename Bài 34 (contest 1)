@@ -1,0 +1,8 @@
+c1, c2, c3, c4, c5 = map(int, input().split())
+sum=c1+c2+c3+c4+c5
+if sum%5==0:
+    if (sum//5) != 0:
+        print(sum//5)
+    else: print('-1')
+else:
+    print('-1')
