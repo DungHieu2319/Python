@@ -1,0 +1,12 @@
+n, m = map(int, input().split())
+if n%2==0:
+    x=n//2
+else:
+    x=(n//2)+1
+if x%m==0:
+    z=x
+else:
+    z=((x//m)+1)*m
+if z<=n:
+    print(z)
+else: print('-1')
