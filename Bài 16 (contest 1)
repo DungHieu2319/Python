@@ -1,0 +1,6 @@
+c=input()
+a=c.lower()
+if a=='z':
+    print('a')
+else:
+    print(chr(ord(a)+1))
