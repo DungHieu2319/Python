@@ -1,0 +1,8 @@
+n=int(input())
+vo=n//28
+tong=vo
+while vo>=3:
+    tong+=(vo//3)
+    x=vo%3
+    vo=x+(vo//3)
+print(tong)
