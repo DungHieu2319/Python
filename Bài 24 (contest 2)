@@ -1,0 +1,27 @@
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        print(1+j+n*i, end=' ')
+    print()
+print()
+for i in range(n):
+    for j in range(n):
+        print(1+j+i, end=' ')
+    print()
+print()
+for i in range(n):
+    for j in range(n):
+        if j>=n-1-i:
+            print(i+1, end='')
+        else: print('~', end='')
+    print()
+print()
+for i in range(n):
+    ktao=i+1
+    distance=n-1
+    for j in range(i+1):
+        print(ktao, end=' ')
+        ktao+=distance
+        distance-=1
+    print()
+print()
