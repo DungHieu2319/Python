@@ -1,0 +1,12 @@
+from math import *
+
+def fac(n):
+    if n==0:
+        return 1
+    else:
+        return n*fac(n-1)
+    
+if __name__=='__main__':
+    a, b = map(int, input().split())
+    if a<b: print(fac(a))
+    else: print(fac(b))
