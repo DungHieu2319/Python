@@ -1,0 +1,13 @@
+def fac(n):
+    if n==0:
+        return 1
+    return n*fac(n-1)
+
+def tong(n):
+    if n==0:
+        return 1
+    return (1/fac(n))+tong(n-1)
+
+if __name__ == '__main__':
+    n=int(input())
+    print('%.4f'%(tong(n-1)))
