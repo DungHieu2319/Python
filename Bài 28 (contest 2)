@@ -1,0 +1,13 @@
+def tong(n):
+    if n<10:
+        return n
+    return (n%10)+tong(n//10)
+
+def sum(n):
+    if tong(n)<10:
+        return tong(n)
+    return (tong(n)%10)+sum(tong(n)//10)
+
+if __name__ == '__main__':
+    n=int(input())
+    print(sum(tong(n)))
